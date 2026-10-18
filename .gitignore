@@ -1,0 +1,30 @@
+# Local plans, scratch work, and runtime data
+*.local.md
+/work/
+/data/
+/runs/
+*.log
+*.tmp
+
+# Build outputs
+/build/
+/build-*/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.exe
+*.pdb
+compile_commands.json
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

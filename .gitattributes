@@ -1,0 +1,2 @@
+# Keep text files consistent between Windows and Ubuntu.
+* text=auto eol=lf
